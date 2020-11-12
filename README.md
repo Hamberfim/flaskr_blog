@@ -10,6 +10,8 @@ Topics learned:
 * Test Coverage
 <br/>
 
+![Alt](https://github.com/Hamberfim/flaskr_blog/blob/main/pytest_completed.png "PyTest - Pass")
+
 ![Alt](https://github.com/Hamberfim/flaskr_blog/blob/main/01_home.png "Home Page")
 
 ![Alt](https://github.com/Hamberfim/flaskr_blog/blob/main/02_edit.png "Edit Page")
