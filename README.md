@@ -1,5 +1,5 @@
 ### flaskr blog - a Flask tutorial 
-Topics Learned: 
+Topics learned: 
 * Application Setup
 * Define and Access the Database
 * Blueprints and Views
