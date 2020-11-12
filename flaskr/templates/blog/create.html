@@ -1,15 +1,18 @@
+<!-- tells Jinja that this template should replace the blocks from the base template -->
 {% extends 'base.html' %}
-
+<!-- All the rendered content must appear inside 'block' tags that override blocks from the base template -->
+<!-- the title block is inside the header block so both window & page share the same title without writing it twice -->
 {% block header %}
   <h1>{% block title %}New Post{% endblock %}</h1>
 {% endblock %}
 
 {% block content %}
   <form method="post">
+  <!-- using the 'required' attribute tells the browser not to submit the form until those fields are filled in -->
     <label for="title">Title</label>
     <input name="title" id="title" value="{{ request.form['title'] }}" required>
     <label for="body">Body</label>
-    <textarea name="body" id="body">{{ request.form['body'] }}</textarea>
+    <textarea name="body" id="body" required>{{ request.form['body'] }}</textarea>
     <input type="submit" value="Save">
   </form>
 {% endblock %}
