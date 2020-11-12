@@ -1,2 +1,3 @@
-### Working through the Flask tutorial for the flaskr blog
-Source:  https://flask.palletsprojects.com/en/1.1.x/tutorial/
+### flaskr blog - a Flask tutorial 
+![Image of flaskr home page](https://github.com/Hamberfim/flaskr_blog/blob/main/01_home.png)<br/>
+![Image of flaskr home page](https://github.com/Hamberfim/flaskr_blog/blob/main/02_edit.png)<br/>
