@@ -1,0 +1,9 @@
+# tell python to copy schema.sql file
+include flaskr/schema.sql
+
+# tell python to copy everything in the static and templates directories
+graft flaskr/static
+graft flaskr/templates
+
+# exclude all bytecode files
+global-exclude *.pyc
